@@ -1,0 +1,43 @@
+Y='Hello World'
+print(Y)
+Y='New message'
+print(Y)
+x='the result of {calc} is {res}'
+print("output=",x)
+
+print(x.format(calc='(31*89)+241', res=(31*89)+241))
+
+x="'Jagapathi said that,If you dont build your dreams someone will hire you to build thier dreams'"
+print(x)
+
+
+y='Kethuri Ajay'
+
+print(y.lower())
+print(y.upper())
+print(y.title())
+
+p='Kethuri'
+q='Ajay'
+u=',he is very talented and brave'
+print(p+' '+q+u)
+
+x='The result for add of  {calc} is {res} '
+
+print("Output= ",x)
+print(x.format(calc='9+9',res=9+9))
+x='The result for sub of {calc} is {res} '
+print(x.format(calc='9-9',res=9-9))
+x='The result for mul of  {calc} is {res} '
+print(x.format(calc='9*9',res=9*9))
+x='The result for div of  {calc} is {res} '
+print(x.format(calc='9/9',res=9/9))
+
+
+y=9+9*8
+print(y)
+y=(9+9)*8
+print(y)
+
+
+print(0.10/0.3)
